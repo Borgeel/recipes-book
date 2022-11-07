@@ -3,8 +3,12 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'max-course-basics';
+  targettedLink: string = '';
+
+  onSelect(target: string) {
+    this.targettedLink = target;
+  }
 }
