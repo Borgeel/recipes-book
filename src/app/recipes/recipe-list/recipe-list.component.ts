@@ -16,7 +16,7 @@ export class RecipeListComponent implements OnInit {
       'https://hips.hearstapps.com/hmg-prod/images/delish-200114-baked-avocado-boats-0361-landscape-pflo-jpg-1647890967.jpg?crop=1.00xw:0.452xh;0,0.262xh&resize=1200:*'
     ),
     new Recipe(
-      'A Test Recipe',
+      'Another Test Recipe',
       'This is simply a test',
       'https://hips.hearstapps.com/hmg-prod/images/delish-200114-baked-avocado-boats-0361-landscape-pflo-jpg-1647890967.jpg?crop=1.00xw:0.452xh;0,0.262xh&resize=1200:*'
     ),
